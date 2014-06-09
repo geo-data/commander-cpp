@@ -1,0 +1,4 @@
+# Configuration file for Travis-CI testing
+
+language: cpp
+script: make test

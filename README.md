@@ -1,5 +1,7 @@
 # commander++
 
+[![Build Status](https://secure.travis-ci.org/geo-data/commander-cpp.png)](http://travis-ci.org/geo-data/commander-cpp)
+
 A simple header only C++ wrapper around the
 [commander C](https://github.com/clibs/commander) command line option parsing
 library.
@@ -143,6 +145,10 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 ```
+
+## Testing
+
+Ensure you have `git` installed and then `make test`.
 
 ## Issues
 
