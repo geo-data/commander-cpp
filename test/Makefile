@@ -5,7 +5,7 @@ test: commander.o ../include/commander.hpp test.cpp
 commander.o: commander commander/src/commander.h commander/src/commander.c
 	$(CC) -g -ggdb -std=c99 -Wall -Wextra --pedantic -c -o commander.o commander/src/commander.c
 commander:
-	git submodule update
+	git submodule update --init
 
 clean:
 	rm -f commander.o test
