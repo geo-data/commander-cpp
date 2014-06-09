@@ -43,7 +43,7 @@ public:
    * Print the help message and exit
    */
   void
-  help() {
+  help() const {
     command_help(command);
   }
 
@@ -70,7 +70,7 @@ public:
    * Access any additional arguments as a vector list
    */
   std::vector<const char *>
-  additionalArgs() {
+  additionalArgs() const {
     std::vector<const char *> args(command->argc);
     args.assign(command->argv, command->argv + command->argc);
     return args;
@@ -90,7 +90,7 @@ public:
    * Get the usage text
    */
   const char *
-  getUsage() {
+  getUsage() const {
     return command->usage;
   }
 
