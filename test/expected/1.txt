@@ -1,0 +1,2 @@
+No additional args
+Verbose status is disabled

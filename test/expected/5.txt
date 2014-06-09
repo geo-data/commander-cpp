@@ -1,0 +1,11 @@
+
+  Usage: ./test [options] [ARG1 [ARG2 [ARG3]]
+
+  Options:
+
+    -V, --version                 output program version
+    -h, --help                    output help information
+    -v, --verbose                 enable verbose stuff
+    -r, --required <arg>          required arg
+    -o, --optional [arg]          optional arg
+
