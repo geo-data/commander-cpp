@@ -1,5 +1,5 @@
 run: test test.sh tests.txt expected/*.txt
-	./test.sh
+	bash test.sh
 test: commander.o ../include/commander.hpp test.cpp
 	$(CXX) -g -ggdb -Wall -Wextra --pedantic -I./commander/src -I../include -o test test.cpp commander.o
 commander.o: commander commander/src/commander.h commander/src/commander.c
